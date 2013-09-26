@@ -1,15 +1,33 @@
 /* ##### Common Styles ##### */
 
 body {
-  background-color: #ffffff;
+  background-color: #f0f0f0;
   color: #000000;
-  font-family: Tahoma, sans-serif;
+  font-family: Tahoma, Verdana, Helvetica, sans-serif;
   font-size: small;
   line-height: 1.3em;
   margin: 0;
   padding: 0;
 }
 
+p {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  text-align: justify;
+}
+
+.main-content {
+  border: 1px solid;
+  border-color: gray;
+  background-color: #fff;
+  background-image: url('bitrig.png');
+  background-repeat: repeat-x;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  height: 600px;
+  width: 610px;
+}
 acronym, .titleTip {
   border-bottom: 1px dotted rgb(61,92,122);
   cursor: help;
@@ -39,6 +57,10 @@ a:visited {
 a:visited:hover {
   color: #f26711;
   text-decoration: underline;
+}
+
+h1 {
+  text-align: center;
 }
 
 h3 {
