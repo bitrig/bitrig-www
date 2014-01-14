@@ -8,8 +8,8 @@ under a permissive license.
 </p>
 
 <p>
-To learn more please read the <a href="/faq.html">FAQ</a> or visit us on
-<a href="/irc.html">IRC</a>.
+To learn more please read the <a href="wiki(`Faq')">FAQ</a> or visit us on
+<a href="wiki(`Irc')">IRC</a>.
 </p>
 
 

@@ -92,39 +92,20 @@ textarea {
     float: left;
     padding: 15px;
     width: 750px;
-    /* width: 500px; */
-    /* margin: 0 auto; */
 }
 
 #footer {
     clear: both;
     text-align: center;
-    /* border-top: 1px solid #ff6600; */
     font-size: 80%;
     color: grey;
     margin-bottom: 10px;
 }
 
 a {
-    /* font-weight: bold; */
     color: black;
-    /* text-decoration: underline; */
     text-decoration: none;
     border-bottom: 1px solid #ff6600;
-}
-
-.mirror_hierachy ul {
-    padding: 0 0 0 15px;
-    margin: 0;
-}
-
-table.roadmap tbody tr:nth-child(odd) {
-    background-color: #eeeeee;
-}
-
-table.roadmap tbody td {
-    border: 1px solid #cccccc;
-    padding: 3px 5px;
 }
 
 

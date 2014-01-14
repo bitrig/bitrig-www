@@ -1,4 +1,5 @@
 define(`inchtml', `include(`./incs/$1.html.m4')')dnl
+define(`wiki', ``https://github.com/bitrig/bitrig/wiki/$1'')dnl
 dnl
 <!DOCTYPE html>
 <html>
@@ -17,9 +18,9 @@ dnl
         <img id="logo" src="/img/logo.png" alt="[Bitrig]" width=170 height=90>
         <ul id="navigation">
           <li><a href="/index.html">About</a></li>
-          <li><a href="/downloads.html">Downloads</a></li>
-          <li><a href="/roadmap.html">Roadmap</a></li>
-          <li><a href="/faq.html">FAQ</a></li>
+          <li><a href="wiki(`Snapshots')">Downloads</a></li>
+          <li><a href="wiki(`Roadmap')">Roadmap</a></li>
+          <li><a href="wiki(`Faq')">FAQ</a></li>
           <li><a href="https://github.com/bitrig/">GitHub</a></li>
           <li><a href="https://twitter.com/bitrig">Twitter</a></li>
         </ul>
@@ -33,3 +34,4 @@ dnl
 </html>
 dnl
 undefine(`inchtml')dnl
+undefine(`wiki')dnl
