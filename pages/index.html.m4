@@ -8,6 +8,13 @@ under a permissive license.
 </p>
 
 <p>
+We are in the process of getting our first public release ready. Please be
+patient and check back often to see where we are at. The plan is to have
+something available for public consumption soon. We currently do have
+<a href="wiki(`Snapshots')">snapshots</a> available.
+</p>
+
+<p>
 To learn more please read the <a href="wiki(`Faq')">FAQ</a> or visit us on
 <a href="wiki(`Irc')">IRC</a>.
 </p>
