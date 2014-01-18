@@ -9,7 +9,8 @@ something available for public consumption soon.
 </p>
 
 <p>
-We have snapshots available for following platforms:
+We have <a href="wiki(`Snapshots')">snapshots</a> available for following
+platforms:
 </p>
 
 <div class="downloads">
