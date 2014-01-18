@@ -108,6 +108,23 @@ a {
     border-bottom: 1px solid #0d7340;
 }
 
+.downloads {
+    margin-top: 30px;
+}
+
+.downloads a {
+    border: 1px solid #0d7340;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.downloads a:hover {
+    color: white;
+    background-color: #0d7340;
+}
+
 
 /* ==========================================================================
    Media Queries
