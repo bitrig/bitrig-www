@@ -1,4 +1,4 @@
-<h1 id="about">Welcome to Bitrig!</h1>
+<h1>Welcome to Bitrig!</h1>
 
 <p> 
 Bitrig is a free, fast, and secure Unix-like Open Source operating system. It
