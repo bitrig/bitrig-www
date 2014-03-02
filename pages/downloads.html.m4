@@ -15,7 +15,7 @@ platforms:
 
 <div class="downloads">
     <a href="mirror(`snapshots/amd64/current/cd01.iso')">amd64</a>
-    <a href="mirror(`snapshots/i386/')">i386</a>
+    <!-- <a href="mirror(`snapshots/i386/')">i386</a> -->
     <a href="mirror(`snapshots/armv7/current/')">armv7</a>
 </div>
 dnl
