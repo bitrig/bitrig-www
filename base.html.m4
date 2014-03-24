@@ -21,6 +21,7 @@ dnl
           <li><a href="/downloads.html">Downloads</a></li>
           <li><a href="wiki(`Roadmap')">Roadmap</a></li>
           <li><a href="wiki(`Faq')">FAQ</a></li>
+          <li><a href="/changes.html">Change Notes</a></li>
           <li><a href="https://github.com/bitrig/">GitHub</a></li>
           <li><a href="https://twitter.com/bitrig">Twitter</a></li>
         </ul>

@@ -71,7 +71,7 @@ textarea {
 #navigation {
     text-align: right;
     border-right: 1px solid #0d7340;
-    padding-right: 10px;
+    padding: 0 10px 0 0;
 }
 
 #navigation li {
