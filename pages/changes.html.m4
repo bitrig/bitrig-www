@@ -2,6 +2,15 @@ define(`note', `<h3><a name="$1$2$3" href="#$1$2$3">$1/$2/$3 - $4</a></h3>')dnl
 dnl
 <h1>Change Notes</h1>
 
+note(2014,03,01,`special ftp directory needs removal')
+<p>
+The ramdisk ftp(1) was replaced with the full binary, which supports SSL. As a
+result its distrib directory has to be removed.
+</p>
+<pre>
+	rm -rf distrib/special/ftp
+</pre>
+
 note(2014,01,20,`amd64/i386 installboot')
 <p>
 The amd64 and i386 architectures have switched to the new installboot(8). As a
