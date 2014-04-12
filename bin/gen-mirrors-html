@@ -1,0 +1,4 @@
+#!/usr/bin/awk -f
+BEGIN { FS="|"; print "<table class=\"downloads\">" }
+{ printf("<tr><td><a href=\"%s\">%s</a></td><td>%s</td></tr>\n", $1, $1, $2) }
+END { print "</table>" }
