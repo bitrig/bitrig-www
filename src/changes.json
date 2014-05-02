@@ -1,0 +1,32 @@
+{
+  "changes": [
+    {
+        "publishdate": "26/03/2014",
+        "title": "rmail(8) and uucpd(8) moved to ports",
+        "summary": "/bin/rmail and uucpd(8) have been removed from the base system and added to the ports tree. As a result, the old binaries and manual pages should be removed:",
+        "commands": [
+            "rm -f /bin/rmail",
+            "rm -f /usr/share/man/man8/rmail.8",
+            "rm -f /usr/libexec/uucpd",
+            "rm -f /usr/share/man/man8/uucpd.8"
+        ],
+        "footnote": "Users of these programs should install the rmail and uucpd packages instead."
+    },
+    {
+        "publishdate": "24/03/2014",
+        "title": "tcpwrappers removed",
+        "summary": "libwrap and tcpd have been removed. The leftover remnants must be purged. The entries in /etc/host.{allow,deny} can be converted into filtering rules in /etc/pf.conf.",
+        "commands": [
+            "rm -f /usr/lib/libwrap{,_p}.*",
+            "rm -f /usr/libexec/tcpd",
+            "rm -f /usr/include/tcpd.h",
+            "rm -f /usr/sbin/tcpd{chk,match}",
+            "rm -f /usr/share/man/man3/hosts_access.3",
+            "rm -f /usr/share/man/man5/hosts.{allow,deny}.5",
+            "rm -f /usr/share/man/man5/hosts_{access,options}.5",
+            "rm -f /usr/share/man/man8/tcpd{,chk,match}.8",
+            "rm -f /etc/hosts.{allow,deny}"
+        ]
+    }
+  ]
+}

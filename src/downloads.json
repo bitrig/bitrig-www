@@ -1,0 +1,20 @@
+{
+  "mirrors": [
+    {
+        "url": "http://mirror2.us.bitrig.org/pub/bitrig",
+        "location": "Chicago, USA"
+    },
+    {
+        "url": "http://mirror.jmu.edu/pub/bitrig",
+        "location": "Harrisonburg, USA"
+    },
+    {
+        "url": "ftp://mirror.jmu.edu/pub/bitrig",
+        "location": "Harrisonburg, USA (FTP)"
+    },
+    {
+        "url": "http://bitrig.antarctica.no",
+        "location": "Bergen, Norway"
+    }
+  ]
+}
