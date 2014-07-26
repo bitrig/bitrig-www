@@ -45,6 +45,9 @@ dnl
         Copyright &copy; esyscmd(`date +%Y') Bitrig
       </div>
     </div>
+
+    inchtml(`github-ribbon')
+
   </body>
 </html>
 dnl
