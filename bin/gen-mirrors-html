@@ -1,4 +1,23 @@
 #!/usr/bin/awk -f
-BEGIN { FS="|"; print "<table class=\"downloads\">" }
-{ printf("<tr><td><a href=\"%s\">%s</a></td><td>%s</td></tr>\n", $1, $1, $2) }
-END { print "</table>" }
+BEGIN {
+	FS="|";
+	print " \
+<table class=\"table table-striped\"> \
+  <thead> \
+    <tr> \
+      <th>URL</th> \
+      <th>Location</th> \
+    </tr> \
+  </thead> \
+  <tbody>"
+}
+
+{
+	printf("<tr><td><a href=\"%s\">%s</a></td><td>%s</td></tr>\n", $1, $1, $2)
+}
+
+END {
+	print " \
+  </tbody> \
+</table>"
+}
