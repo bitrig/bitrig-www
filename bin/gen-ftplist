@@ -1,3 +1,10 @@
 #!/usr/bin/awk -f
-BEGIN { FS="|" }
-{ printf("%-50s %21s\n", $1, $2) }
+BEGIN {
+	FS="|"
+	linelen = 72
+}
+{
+	loclen = linelen - length($1) - 1;
+	fmt = sprintf("%%s %%%ds\n", loclen)
+	printf(fmt, $1, $2)
+}
