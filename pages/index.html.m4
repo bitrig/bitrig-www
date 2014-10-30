@@ -1,11 +1,9 @@
 <div class="jumbotron">
-  <h1>Welcome to Bitrig!</h1>
+  <h1>Welcome to Bitrig 1.0!</h1>
 
   <p>
-    We are in the process of getting our first public release ready. Please be
-    patient and check back often to see where we are at. The plan is to have
-    something available for public consumption soon. We currently do have
-    <a href="wiki(`Snapshots')">snapshots</a> available.
+    Our first release is ready for public consumption. Grab a CD image from one
+    of our <a href="/downloads.html">mirrors</a> and start riggin'.
   </p>
 </div>
 

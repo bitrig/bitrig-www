@@ -1,19 +1,16 @@
-<h1>Downloads</h1>
-
-<div class="alert alert-info">
-  <p>
-    We are in the process of getting our first public release ready. Please be
-    patient and check back often to see where we are at. The plan is to have
-    something available for public consumption soon. In the meantime you can
-    download <a href="wiki(`Snapshots')">snapshots</a> from our mirrors.
-  </p>
-
-  <div class="pull-right">
-    inchtml(`twitter-button')
-  </div>
-  <div class="clearfix"></div>
-</div>
-
-<h2>Mirrors</h2>
+<h1>Mirrors</h1>
 
 esyscmd(`./bin/gen-mirrors-html data/mirrors')
+
+<div class="well">
+  <span class="pull-right">
+    inchtml(`twitter-button')
+  </span>
+
+  <p>
+    If you plan to help us working on the next version of Bitrig, grab a
+    <a href="wiki(`Snapshots')">snapshot</a> from one of our mirrors. See the
+    <a href="https://github.com/bitrig/bitrig/blob/master/UPDATING">Change Notes</a>
+    for upgrade instructions.
+  </p>
+</div>
