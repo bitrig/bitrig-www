@@ -2,9 +2,9 @@
   <h1>Welcome to Bitrig 1.0!</h1>
 
   <p>
-    Our first release is ready for public consumption. Have a look at our
-    <a href="/10.html">key features</a>, grab a CD image from one of our
-    <a href="/downloads.html">mirrors</a> and start riggin'.
+    Have a look at our <a href="/10.html">key features</a>, grab a CD
+    image from one of our <a href="/downloads.html">mirrors</a> and
+    start riggin'.
   </p>
 </div>
 
