@@ -18,7 +18,7 @@ $ signify -C -p <a href="/bitrig-10-base.pub">/etc/signify/bitrig-10-base.pub</a
   </span>
 
   <p>
-    If you plan to help us working on the next version of Bitrig, grab a
+    If you plan to help us work on the next version of Bitrig, grab a
     <a href="wiki(`Snapshots')">snapshot</a> from one of our mirrors. See the
     <a href="https://github.com/bitrig/bitrig/blob/master/UPDATING">Change Notes</a>
     for upgrade instructions.
