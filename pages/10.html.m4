@@ -1,11 +1,13 @@
-<h1>Bitrig 1.0 key features</h1>
+<h1>Bitrig 1.0</h1>
 
 <div class="alert alert-success" style="color: #222222;">
-    The Bitrig team is pleased to announce the availability of the Bitrig 1.0
-    release. This is the first release of the Bitrig operating system and has
-    many great changes since our initial fork from OpenBSD. This includes changes
-    from OpenBSD up to their 5.6 release.
+  The Bitrig team is pleased to announce the availability of the Bitrig 1.0
+  release. This is the first release of the Bitrig operating system and has
+  many great changes since our initial fork from OpenBSD. This includes changes
+  from OpenBSD up to their 5.6 release.
 </div>
+
+<h2>Key Features</h2>
 
 <table class="table table-striped table-condensed">
   <tbody>
