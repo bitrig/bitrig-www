@@ -25,6 +25,8 @@ dnl
 
         <ul class="nav navbar-nav">
           <li><a href="/downloads.html">Downloads</a></li>
+          <li><a href="/10.html">Release</a></li>
+          <li><a href="/errata10.html">Errata</a></li>
           <li><a href="wiki(`Roadmap')">Roadmap</a></li>
           <li><a href="wiki(`Faq')">FAQ</a></li>
           <li><a href="https://github.com/bitrig/bitrig/blob/master/UPDATING">
