@@ -14,6 +14,13 @@ define(`ERRATUM', `
     $4
   </li>
 ')dnl
+ERRATUM(`STABILITY FIX', `Jan 30, 2015', `8425294fee2c566c56940716cb05dbfa3f93b589', `
+Incorrect buffer handling in WAPBL(4) causes buffers to be leaked and can thus
+lead to out-of-memory conditions.
+')
+ERRATUM(`SECURITY FIX', `Jan 30, 2015', `cfdcb026927167badd77a345b2074ce22662f653', `
+CVE-2014-6272 - potential heap overflow in libevent's buffer/bufferevent APIs
+')
 ERRATUM(`STABILITY FIX', `Dec 11, 2014', `dcc357b948a535cc254168aaed7aa67e874efec8', `
 Calling scanf() with a format string containing a certain combination of %n and
 %f leads to an incorrect return value.
