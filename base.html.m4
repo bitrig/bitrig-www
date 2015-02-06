@@ -32,6 +32,7 @@ dnl
           <li><a href="https://github.com/bitrig/bitrig/blob/master/UPDATING">
             Change Notes</a></li>
           <li><a href="https://github.com/bitrig/">GitHub</a></li>
+          <li><a href="/want.html">Donate Hardware</a></li>
         </ul>
       </div>
     </nav>
