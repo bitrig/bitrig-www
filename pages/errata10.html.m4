@@ -14,6 +14,10 @@ define(`ERRATUM', `
     $4
   </li>
 ')dnl
+ERRATUM(`STABILITY FIX', `March 8, 2015', `4d3fbe4f3f4a7d87c86e06a52a85feb150b87001', `
+amd64: A read(2) on /dev/zero with a size of 2**32 causes a busy loop in
+mmrw() that freezes the kernel.
+')
 ERRATUM(`STABILITY FIX', `Jan 30, 2015', `8425294fee2c566c56940716cb05dbfa3f93b589', `
 Incorrect buffer handling in WAPBL(4) causes buffers to be leaked and can thus
 lead to out-of-memory conditions.
