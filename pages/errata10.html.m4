@@ -33,7 +33,7 @@ ERRATUM_X(`SECURITY FIX', `March 19, 2015', `e7335ca59487a4c7a4fd689508ba76ad964
 Another fix for buffer overflows in malformed fonts.
 ')
 ERRATUM(`SECURITY FIX', `March 19, 2015', `2a893744b20f494901e930c1fd3a64249d650b44', `
-Don't permit TLS client connections to be downgraded to weak keys.
+Don&apos;t permit TLS client connections to be downgraded to weak keys.
 ')
 ERRATUM_X(`SECURITY FIX', `March 19, 2015', `3faf6297830b8c647bef39364ad0895353216857', `
 Information leak in the XkbSetGeometry request of X servers.
