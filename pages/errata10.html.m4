@@ -14,6 +14,30 @@ define(`ERRATUM', `
     $4
   </li>
 ')dnl
+define(`ERRATUM_X', `
+  <li class="list-group-item">
+    <b>$1</b> $2
+    <a href="https://github.com/bitrig/bitrig-xenocara/commit/$3.patch">patch</a>
+    <br>
+    $4
+  </li>
+')dnl
+ERRATUM(`SECURITY FIX', `March 19, 2015', `47d550e862006e784525d6cd63eae9741dcef18c', `
+Several crashes have been fixed in OpenSSL. See CVE-2015-0209, CVE-2015-0286,
+CVE-2015-0287, CVE-2015-0288 and CVE-2015-0289.
+')
+ERRATUM_X(`SECURITY FIX', `March 19, 2015', `754bcba9ebd148824c72680f69c9728818b11cda', `
+More BDF file parsing issues in libXfont.
+')
+ERRATUM_X(`SECURITY FIX', `March 19, 2015', `e7335ca59487a4c7a4fd689508ba76ad964cf1ce', `
+Another fix for buffer overflows in malformed fonts.
+')
+ERRATUM(`SECURITY FIX', `March 19, 2015', `2a893744b20f494901e930c1fd3a64249d650b44', `
+Don't permit TLS client connections to be downgraded to weak keys.
+')
+ERRATUM_X(`SECURITY FIX', `March 19, 2015', `3faf6297830b8c647bef39364ad0895353216857', `
+Information leak in the XkbSetGeometry request of X servers.
+')
 ERRATUM(`STABILITY FIX', `March 8, 2015', `4d3fbe4f3f4a7d87c86e06a52a85feb150b87001', `
 amd64: A read(2) on /dev/zero with a size of 2**32 causes a busy loop in
 mmrw() that freezes the kernel.
