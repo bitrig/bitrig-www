@@ -20,7 +20,7 @@ define(`O', `
     </tr>
 ')dnl
 O(`Gateworks', `Ventana GW5520', `http://www.gateworks.com/', `img/vendors/gateworks.png')
-O(`PC Engines', `2x APU1D4', `http://www.pcengines.ch/', `')
+O(`PC Engines', `2x APU1D4', `http://www.pcengines.ch/', `img/vendors/pcengines.gif')
 O(`Scaleway', `C1 server development kit', `http://www.scaleway.com/', `img/vendors/scaleway.png')
   </tbody>
 </table>
