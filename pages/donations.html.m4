@@ -15,10 +15,10 @@ define(`C', `
     </a>
   </div>
 ')dnl
-C(`Gateworks', `http://www.gateworks.com/', `img/vendors/gateworks.png')
-C(`PC Engines', `http://www.pcengines.ch/', `img/vendors/pcengines.gif')
-C(`Scaleway', `http://www.scaleway.com/', `img/vendors/scaleway.png')
-C(`SolidRun', `http://www.solid-run.com/', `img/vendors/solidrun.png')
+C(`Gateworks', `http://www.gateworks.com/', `/img/vendors/gateworks.png')
+C(`PC Engines', `http://www.pcengines.ch/', `/img/vendors/pcengines.gif')
+C(`Scaleway', `http://www.scaleway.com/', `/img/vendors/scaleway.png')
+C(`SolidRun', `http://www.solid-run.com/', `/img/vendors/solidrun.png')
 </div>
 
 <h2>Contributors</h2>
