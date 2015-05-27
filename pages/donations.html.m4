@@ -1,7 +1,7 @@
 <h1>Donations</h1>
 
 <div class="alert alert-success" style="color: #222222;">
-  The following is a list of our sponsors &amp; donors and their donations.
+  The following is a list of our sponsors and donors.
   Thank you very much for your support.
 </div>
 
