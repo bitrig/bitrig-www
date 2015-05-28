@@ -15,6 +15,7 @@ define(`C', `
     </a>
   </div>
 ')dnl
+C(`Company 0', `http://www.companyzero.com/', `/img/vendors/companyzero.png')
 C(`Gateworks', `http://www.gateworks.com/', `/img/vendors/gateworks.png')
 C(`PC Engines', `http://www.pcengines.ch/', `/img/vendors/pcengines.gif')
 C(`Scaleway', `http://www.scaleway.com/', `/img/vendors/scaleway.png')
