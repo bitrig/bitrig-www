@@ -22,6 +22,10 @@ define(`ERRATUM_X', `
     $4
   </li>
 ')dnl
+ERRATUM(`SECURITY FIX', `July 27, 2015', `f4266d78c8b2bb6a19e6ffd79a15db7122b4daec', `
+The patch(1) utility was susceptible to executing arbitrary commands when
+presented with a specially crafted input file. See CVE-2015-1416.
+')
 ERRATUM(`SECURITY FIX', `March 19, 2015', `47d550e862006e784525d6cd63eae9741dcef18c', `
 Several crashes have been fixed in OpenSSL. See CVE-2015-0209, CVE-2015-0286,
 CVE-2015-0287, CVE-2015-0288 and CVE-2015-0289.
