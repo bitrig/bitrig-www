@@ -22,6 +22,11 @@ define(`ERRATUM_X', `
     $4
   </li>
 ')dnl
+ERRATUM(`SECURITY FIX', `July 30, 2015', `8cfc647b2c41576cae07f30d57c3903e7324fb69', `
+It was possible tricking patch(1) into feeding arbitrary commands to ed(1)
+when interpreting an ed style diff, resulting in the execution of shell
+commands.
+')
 ERRATUM(`SECURITY FIX', `July 27, 2015', `f4266d78c8b2bb6a19e6ffd79a15db7122b4daec', `
 The patch(1) utility was susceptible to executing arbitrary commands when
 presented with a specially crafted input file. See CVE-2015-1416.
