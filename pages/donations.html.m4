@@ -18,6 +18,7 @@ define(`C', `
 C(`Company 0', `http://www.companyzero.com/', `/img/vendors/companyzero.png')
 C(`Gateworks', `http://www.gateworks.com/', `/img/vendors/gateworks.png')
 C(`PC Engines', `http://www.pcengines.ch/', `/img/vendors/pcengines.gif')
+C(`Rikomagic', `http://www.rikomagic.com', `/img/vendors/rikomagic.jpg')
 C(`Scaleway', `http://www.scaleway.com/', `/img/vendors/scaleway.png')
 C(`SolidRun', `http://www.solid-run.com/', `/img/vendors/solidrun.png')
 </div>
