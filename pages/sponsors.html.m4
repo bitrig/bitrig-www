@@ -1,7 +1,7 @@
-<h1>Donations</h1>
+<h1>Sponsors</h1>
 
 <div class="alert alert-success" style="color: #222222;">
-  The following is a list of our sponsors and donors.
+  The following is a list of our sponsors.
   Thank you very much for your support.
 </div>
 
@@ -15,6 +15,7 @@ define(`C', `
     </a>
   </div>
 ')dnl
+C(`AMD', `http://www.amd.com/', `/img/vendors/amd.png')
 C(`Company 0', `http://www.companyzero.com/', `/img/vendors/companyzero.png')
 C(`Gateworks', `http://www.gateworks.com/', `/img/vendors/gateworks.png')
 C(`PC Engines', `http://www.pcengines.ch/', `/img/vendors/pcengines.gif')

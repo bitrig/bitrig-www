@@ -33,7 +33,7 @@ dnl
             Change Notes</a></li>
           <li><a href="https://github.com/bitrig/">GitHub</a></li>
           <li><a href="/want.html">Donate Hardware</a></li>
-          <li><a href="/donations.html">Donations</a></li>
+          <li><a href="/sponsors.html">Sponsors</a></li>
         </ul>
       </div>
     </nav>
