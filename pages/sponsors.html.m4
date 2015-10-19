@@ -34,7 +34,6 @@ define(`P', `
       <td>$2</td>
     </tr>
 ')dnl
-P(`Bryan Steele', `HP Chromebook 11')
 P(`Christer Solskogen', `Compulab Utilite Pro')
   </tbody>
 </table>
