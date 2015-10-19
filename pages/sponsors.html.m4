@@ -35,6 +35,7 @@ define(`P', `
     </tr>
 ')dnl
 P(`Christer Solskogen', `Compulab Utilite Pro')
+P(`Christer Solskogen', `Nvidia Shield')
   </tbody>
 </table>
 
